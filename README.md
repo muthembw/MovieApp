@@ -1,2 +1,2 @@
-# MovieApp
-A React.js movieApp Application
+#React.js MovieApp
+A movieApp Application
