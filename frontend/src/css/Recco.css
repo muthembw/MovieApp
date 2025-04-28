@@ -1,4 +1,4 @@
-.favorites {
+.recommendations {
     padding: 2rem;
     width: 100%;
     box-sizing: border-box;
@@ -8,7 +8,7 @@
     margin-bottom: 2rem;
     text-align: center;
     font-size: 2.5rem;
-    color: #4c44b4;
+    color: #ffffff;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
   }
   

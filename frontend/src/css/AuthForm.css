@@ -1,0 +1,82 @@
+.auth-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* Changed to 100vh for full vertical centering */
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+
+.auth-form {
+    background-color: #ede1e1;
+    padding: 40px 32px; /* Increased padding for a larger box */
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 450px; /* Increased max-width for a larger form */
+}
+
+.auth-form h2 {
+    text-align: center;
+    margin-bottom: 24px;
+    font-size: 32px; /* Increased font size for the heading */
+    font-weight: bold;
+    color: #333;
+}
+
+.auth-form label {
+    display: block;
+    margin-bottom: 10px; /* Increased margin for better spacing */
+    font-weight: 500;
+    color: #555;
+}
+
+.auth-form input {
+    width: 100%;
+    padding: 16px; /* Increased padding for larger input fields */
+    margin-bottom: 24px; /* Increased margin for better spacing */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 18px; /* Increased font size for input fields */
+}
+
+.auth-form input:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.4);
+}
+
+.auth-form button {
+    width: 100%;
+    padding: 16px; /* Increased padding for a larger button */
+    background-color: #007bff;
+    color: white;
+    font-size: 18px; /* Increased font size for the button */
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.auth-form button:hover {
+    background-color: #0056b3;
+}
+
+.auth-form .switch-link {
+    margin-top: 20px; /* Increased margin for better spacing */
+    text-align: center;
+    font-size: 16px; /* Increased font size for the link */
+    color: #555;
+}
+
+.auth-form .switch-link a {
+    color: #007bff;
+    text-decoration: none;
+    margin-left: 4px;
+}
+
+.auth-form .switch-link a:hover {
+    text-decoration: underline;
+}

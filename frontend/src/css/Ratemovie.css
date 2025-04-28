@@ -1,0 +1,113 @@
+/* Container to center the content on the screen */
+.rate-movie-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #e7cccc;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Box that holds the form */
+  .rate-movie-box {
+    background-color: rgb(233, 106, 106);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    
+  }
+  
+  /* Header for the rate movie page */
+  .rate-movie-box h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Styling for the rating input */
+  .rating-group {
+    margin-bottom: 20px;
+  }
+  
+  .rating-group label {
+    font-size: 24px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .rating-group input {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-top: 5px;
+  }
+  
+  /* Styling for the comment textarea */
+.comment-group {
+    margin-bottom: 20px;
+  }
+  
+  .comment-group label {
+    font-size: 16px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .comment-group textarea {
+    width: 100%;
+    padding: 20px;  /* Increase padding for a larger text area */
+    font-size: 16px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    resize: vertical; /* Allow resizing vertically */
+    min-height: 250px; /* Increased height for more space */
+    max-height: 400px; /* Optional: you can limit the height */
+  }
+  
+  
+  /* Submit button styling */
+  .submit-button {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .submit-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .submit-button:active {
+    background-color: #004085;
+  }
+  
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
